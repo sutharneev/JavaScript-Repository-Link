@@ -1,0 +1,28 @@
+body{margin:0;font-family:system-ui;background:#0f172a;color:#e2e8f0}
+main{width:min(600px,94%);margin:2rem auto;background:#111827;padding:1rem;border-radius:1rem}
+form, .filters{display:flex;gap:.5rem}
+input,button{padding:.6rem;border:none;border-radius:.5rem}
+button{background:#2563eb;color:white;cursor:pointer}
+.filters button{background:#334155}
+.filters .active{outline:2px solid #2563eb}
+li{display:flex;justify-content:space-between;align-items:center;background:#0b1220;margin-top:.6rem;padding:.6rem;border-radius:.5rem}
+.done{text-decoration: line-through;opacity:.6}
+.actions button{background:#1f2937}
+
+
+/* Enlarged input bar and better text visibility */
+form { display:flex; gap:.5rem; }
+#task {
+  flex: 1 1 auto;
+  min-width: 0;
+  width: 100%;
+  font-size: 1.05rem;
+  padding: .8rem;
+}
+/* Ensure task text wraps and is fully visible */
+li span {
+  flex: 1 1 auto;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
