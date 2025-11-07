@@ -1,0 +1,7 @@
+body{margin:0;font-family:system-ui;background:#0f172a;color:#e2e8f0}
+main{width:min(720px,94%);margin:2rem auto;background:#111827;padding:1rem;border-radius:1rem}
+input,button{padding:.6rem;border:none;border-radius:.5rem;margin-right:.4rem}
+button{background:#2563eb;color:white;cursor:pointer}
+table{width:100%;border-collapse:collapse;margin-top:1rem}
+td,th{border-bottom:1px solid #334155;padding:.5rem;text-align:left}
+.controls{margin-top:.6rem}
