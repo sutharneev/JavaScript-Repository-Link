@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quiz App</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main>
+  <header class="row">
+    <h1>JS Basics Quiz</h1>
+    <div>⏱ <span id="time">60</span>s</div>
+  </header>
+  <section id="screen-start" class="card">
+    <p>Test your JavaScript fundamentals. 10 questions, 60 seconds. -1s penalty for wrong answers.</p>
+    <button id="start">Start Quiz</button>
+    <p class="muted">High score: <span id="high">0</span>/10</p>
+  </section>
+
+  <section id="screen-q" class="card" hidden>
+    <h2 id="qText"></h2>
+    <div id="opts" class="grid"></div>
+    <p id="status" class="muted"></p>
+  </section>
+
+  <section id="screen-end" class="card" hidden>
+    <h2>Finished!</h2>
+    <p>Your score: <strong id="score"></strong>/10</p>
+    <button id="again">Play Again</button>
+  </section>
+</main>
+<script src="script.js"></script></body></html>
