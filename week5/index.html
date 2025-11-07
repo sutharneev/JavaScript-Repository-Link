@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grade Tracker</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main>
+  <h1>Student Grade Tracker</h1>
+  <form id="form">
+    <input name="name" placeholder="Name" required />
+    <input name="marks" type="number" placeholder="Marks (0-100)" min="0" max="100" required />
+    <button>Add</button>
+  </form>
+  <div class="controls">
+    <button id="sortName">Sort by Name</button>
+    <button id="sortMarks">Sort by Marks</button>
+  </div>
+  <table><thead><tr><th>#</th><th>Name</th><th>Marks</th><th>Grade</th></tr></thead>
+    <tbody id="tbody"></tbody></table>
+  <p><strong>Class Average:</strong> <span id="avg">0</span></p>
+</main>
+<script src="script.js"></script></body></html>
