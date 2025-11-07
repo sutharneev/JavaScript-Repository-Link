@@ -1,0 +1,7 @@
+body{margin:0;font-family:system-ui;background:#0f172a;color:#e2e8f0}
+main{width:min(560px,92%);margin:2rem auto;background:#111827;padding:1rem;border-radius:1rem;display:grid;gap:.5rem}
+label{display:grid;gap:.3rem}
+input,textarea,button{padding:.6rem;border:none;border-radius:.5rem}
+button{background:#2563eb;color:white}
+.err{color:#fda4af;min-height:1.2rem}
+#ok{color:#a7f3d0}
