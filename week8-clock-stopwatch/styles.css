@@ -1,0 +1,7 @@
+body{margin:0;font-family:system-ui;background:#0f172a;color:#e2e8f0}
+main{width:min(700px,94%);margin:2rem auto;display:grid;gap:1rem}
+.card{background:#111827;padding:1rem;border-radius:1rem}
+.display{font:700 2rem ui-monospace, SFMono-Regular, Menlo; background:#0b1220;padding:1rem;border-radius:.6rem;text-align:center}
+.row{display:flex;gap:.5rem;margin-top:.6rem}
+button{padding:.6rem;border:none;border-radius:.5rem;background:#2563eb;color:white;cursor:pointer}
+ol{margin-top:.6rem}
