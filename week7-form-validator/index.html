@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Form Validator</title><link rel="stylesheet" href="styles.css"></head>
+<body>
+<main>
+  <h1>Contact Us</h1>
+  <form id="form" novalidate>
+    <label>Name<input name="name" required /></label><span class="err" id="eName"></span>
+    <label>Email<input name="email" type="email" required /></label><span class="err" id="eEmail"></span>
+    <label>Message<textarea name="msg" required minlength="10"></textarea></label><span class="err" id="eMsg"></span>
+    <button>Send</button>
+    <p id="ok"></p>
+  </form>
+</main>
+<script src="script.js"></script></body></html>
